@@ -19,7 +19,7 @@ const generateClassName = createGenerateClassName({
 
 const history = createBrowserHistory();
 
-// container application
+//container application
 export default () => {
   const [isSignedIn, setIsSignedIn] = useState(false);
 
